@@ -1,0 +1,33 @@
+Exception:
+To handle compile time & runtime errors in a program,
+Java provides a robust and object-oriented way to handle exceptions
+using the `try`, `catch`, `finally`, `throw`, and `throws` keywords.
+
+Exception Hierarchy:
+- Throwable
+  - Error
+  - Exception
+    - RuntimeException
+      - NullPointerException
+      - ArrayIndexOutOfBoundsException
+      - ArithmeticException
+      - IllegalArgumentException
+      - NumberFormatException
+      - ConcurrentModificationException
+      - StackOverflowError
+      - OutOfMemoryError
+      - IOException
+      - SQLException
+      - ClassNotFoundException
+      - InterruptedException
+      - NoSuchElementException
+      - TimeoutException
+      - InputMismatchException
+
+
+Syntax:
+try{ }
+catch(Exception e) {
+  e.printStackTrace();
+}
+finally { }

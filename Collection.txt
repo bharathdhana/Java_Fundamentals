@@ -1,0 +1,46 @@
+Java Collections
+1. ArrayList
+2. LinkedList
+3. HashSet
+4. TreeSet
+5. HashMap
+6. TreeMap
+
+ArrayList<String> arrayList = new ArrayList<>();
+LinkedList<String> linkedList = new LinkedList<>();
+HashSet<String> hashSet = new HashSet<>();
+TreeSet<String> treeSet = new TreeSet<>();
+HashMap<String, String> hashMap = new HashMap<>();
+TreeMap<String, String> treeMap = new TreeMap<>();
+
+Set<String> hashSet = new HashSet<>();
+Set<String> treeSet = new TreeSet<>();
+Map<String, String> hashMap = new HashMap<>();
+Map<String, String> treeMap = new TreeMap<>();
+
+Queue<String> queue = new LinkedList<>();
+PriorityQueue<String> priorityQueue = new PriorityQueue<>();
+Deque<String> deque = new LinkedList<>();
+
+ArrayList:
+add elements - add()
+remove elements - remove()
+
+LinkedList:
+add elements - offer()
+remove elements - poll()
+
+Note:
+LinkedList can also be used as a stack (LIFO) or a queue (FIFO).
+
+stackOperations:
+add - push()
+remove - pop()
+
+HashMap:
+keySet() -> Set<String>
+values() -> Collection<String>
+entrySet() -> Set<Map.Entry<String, String>>
+
+TreeMap:
+add -  put()
